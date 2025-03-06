@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\polag\\Downloads\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\polag\\Downloads\\TodoApi1\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\polag\\Downloads\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\polag\\Downloads\\TodoApi1\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\polag\\Downloads\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\polag\\Downloads\\TodoApi1\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\polag\\Downloads\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\polag\\Downloads\\TodoApi1\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\polag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\polag\\Downloads\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\polag\\Downloads\\TodoApi1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\polag\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,10 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -61,6 +65,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.3.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.6.0, )"
             }
           },
           "imports": [
